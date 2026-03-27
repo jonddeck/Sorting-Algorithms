@@ -1,0 +1,769 @@
+Algorithm,Input Type,Size,Avg Time (s)
+Bubble Sort,random,50,0.000106
+Bubble Sort,random,100,0.000357
+Bubble Sort,random,500,0.008850
+Bubble Sort,random,1000,
+Bubble Sort,random,5000,
+Bubble Sort,random,10000,
+Bubble Sort,nearly_sorted,50,0.000056
+Bubble Sort,nearly_sorted,100,0.000323
+Bubble Sort,nearly_sorted,500,0.006114
+Bubble Sort,nearly_sorted,1000,
+Bubble Sort,nearly_sorted,5000,
+Bubble Sort,nearly_sorted,10000,
+Bubble Sort,reverse,50,0.000115
+Bubble Sort,reverse,100,0.000642
+Bubble Sort,reverse,500,0.011580
+Bubble Sort,reverse,1000,
+Bubble Sort,reverse,5000,
+Bubble Sort,reverse,10000,
+Bubble Sort,duplicates,50,0.000083
+Bubble Sort,duplicates,100,0.000384
+Bubble Sort,duplicates,500,0.009214
+Bubble Sort,duplicates,1000,
+Bubble Sort,duplicates,5000,
+Bubble Sort,duplicates,10000,
+Selection Sort,random,50,0.000108
+Selection Sort,random,100,0.000314
+Selection Sort,random,500,0.008244
+Selection Sort,random,1000,
+Selection Sort,random,5000,
+Selection Sort,random,10000,
+Selection Sort,nearly_sorted,50,0.000087
+Selection Sort,nearly_sorted,100,0.000367
+Selection Sort,nearly_sorted,500,0.007558
+Selection Sort,nearly_sorted,1000,
+Selection Sort,nearly_sorted,5000,
+Selection Sort,nearly_sorted,10000,
+Selection Sort,reverse,50,0.000088
+Selection Sort,reverse,100,0.000323
+Selection Sort,reverse,500,0.007229
+Selection Sort,reverse,1000,
+Selection Sort,reverse,5000,
+Selection Sort,reverse,10000,
+Selection Sort,duplicates,50,0.000086
+Selection Sort,duplicates,100,0.000356
+Selection Sort,duplicates,500,0.007878
+Selection Sort,duplicates,1000,
+Selection Sort,duplicates,5000,
+Selection Sort,duplicates,10000,
+Insertion Sort,random,50,0.000058
+Insertion Sort,random,100,0.000159
+Insertion Sort,random,500,0.004667
+Insertion Sort,random,1000,
+Insertion Sort,random,5000,
+Insertion Sort,random,10000,
+Insertion Sort,nearly_sorted,50,0.000007
+Insertion Sort,nearly_sorted,100,0.000028
+Insertion Sort,nearly_sorted,500,0.000848
+Insertion Sort,nearly_sorted,1000,
+Insertion Sort,nearly_sorted,5000,
+Insertion Sort,nearly_sorted,10000,
+Insertion Sort,reverse,50,0.000086
+Insertion Sort,reverse,100,0.000354
+Insertion Sort,reverse,500,0.009152
+Insertion Sort,reverse,1000,
+Insertion Sort,reverse,5000,
+Insertion Sort,reverse,10000,
+Insertion Sort,duplicates,50,0.000042
+Insertion Sort,duplicates,100,0.000174
+Insertion Sort,duplicates,500,0.004620
+Insertion Sort,duplicates,1000,
+Insertion Sort,duplicates,5000,
+Insertion Sort,duplicates,10000,
+Merge Sort,random,50,0.000067
+Merge Sort,random,100,0.000128
+Merge Sort,random,500,0.000752
+Merge Sort,random,1000,0.001553
+Merge Sort,random,5000,0.009254
+Merge Sort,random,10000,0.020025
+Merge Sort,nearly_sorted,50,0.000045
+Merge Sort,nearly_sorted,100,0.000101
+Merge Sort,nearly_sorted,500,0.000672
+Merge Sort,nearly_sorted,1000,0.001538
+Merge Sort,nearly_sorted,5000,0.008488
+Merge Sort,nearly_sorted,10000,0.018095
+Merge Sort,reverse,50,0.000046
+Merge Sort,reverse,100,0.000096
+Merge Sort,reverse,500,0.000536
+Merge Sort,reverse,1000,0.001113
+Merge Sort,reverse,5000,0.006640
+Merge Sort,reverse,10000,0.013399
+Merge Sort,duplicates,50,0.000056
+Merge Sort,duplicates,100,0.000119
+Merge Sort,duplicates,500,0.000740
+Merge Sort,duplicates,1000,0.001694
+Merge Sort,duplicates,5000,0.009494
+Merge Sort,duplicates,10000,0.020678
+Quick Sort,random,50,0.000035
+Quick Sort,random,100,0.000058
+Quick Sort,random,500,0.000494
+Quick Sort,random,1000,0.001016
+Quick Sort,random,5000,0.006000
+Quick Sort,random,10000,0.013041
+Quick Sort,nearly_sorted,50,0.000112
+Quick Sort,nearly_sorted,100,0.000179
+Quick Sort,nearly_sorted,500,0.001292
+Quick Sort,nearly_sorted,1000,0.002341
+Quick Sort,nearly_sorted,5000,0.021564
+Quick Sort,nearly_sorted,10000,0.070280
+Quick Sort,reverse,50,0.000092
+Quick Sort,reverse,100,0.000352
+Quick Sort,reverse,500,0.008382
+Quick Sort,reverse,1000,
+Quick Sort,reverse,5000,
+Quick Sort,reverse,10000,
+Quick Sort,duplicates,50,0.000036
+Quick Sort,duplicates,100,0.000075
+Quick Sort,duplicates,500,0.000527
+Quick Sort,duplicates,1000,0.001138
+Quick Sort,duplicates,5000,0.006837
+Quick Sort,duplicates,10000,0.014468
+Heap Sort,random,50,0.000061
+Heap Sort,random,100,0.000016
+Heap Sort,random,500,0.000081
+Heap Sort,random,1000,0.000172
+Heap Sort,random,5000,0.001065
+Heap Sort,random,10000,0.002295
+Heap Sort,nearly_sorted,50,0.000008
+Heap Sort,nearly_sorted,100,0.000021
+Heap Sort,nearly_sorted,500,0.000104
+Heap Sort,nearly_sorted,1000,0.000209
+Heap Sort,nearly_sorted,5000,0.001114
+Heap Sort,nearly_sorted,10000,0.001838
+Heap Sort,reverse,50,0.000008
+Heap Sort,reverse,100,0.000019
+Heap Sort,reverse,500,0.000078
+Heap Sort,reverse,1000,0.000160
+Heap Sort,reverse,5000,0.000875
+Heap Sort,reverse,10000,0.002907
+Heap Sort,duplicates,50,0.000009
+Heap Sort,duplicates,100,0.000017
+Heap Sort,duplicates,500,0.000092
+Heap Sort,duplicates,1000,0.000169
+Heap Sort,duplicates,5000,0.000947
+Heap Sort,duplicates,10000,0.002118
+Shellsort,random,50,0.000025
+Shellsort,random,100,0.000068
+Shellsort,random,500,0.000503
+Shellsort,random,1000,0.001242
+Shellsort,random,5000,0.010050
+Shellsort,random,10000,0.022591
+Shellsort,nearly_sorted,50,0.000017
+Shellsort,nearly_sorted,100,0.000046
+Shellsort,nearly_sorted,500,0.000392
+Shellsort,nearly_sorted,1000,0.000981
+Shellsort,nearly_sorted,5000,0.007501
+Shellsort,nearly_sorted,10000,0.017246
+Shellsort,reverse,50,0.000038
+Shellsort,reverse,100,0.000054
+Shellsort,reverse,500,0.000402
+Shellsort,reverse,1000,0.000967
+Shellsort,reverse,5000,0.006204
+Shellsort,reverse,10000,0.015072
+Shellsort,duplicates,50,0.000022
+Shellsort,duplicates,100,0.000056
+Shellsort,duplicates,500,0.000496
+Shellsort,duplicates,1000,0.001325
+Shellsort,duplicates,5000,0.008848
+Shellsort,duplicates,10000,0.020344
+Comb Sort,random,50,0.000027
+Comb Sort,random,100,0.000074
+Comb Sort,random,500,0.000530
+Comb Sort,random,1000,0.001351
+Comb Sort,random,5000,0.008855
+Comb Sort,random,10000,0.019748
+Comb Sort,nearly_sorted,50,0.000023
+Comb Sort,nearly_sorted,100,0.000056
+Comb Sort,nearly_sorted,500,0.000497
+Comb Sort,nearly_sorted,1000,0.001158
+Comb Sort,nearly_sorted,5000,0.008125
+Comb Sort,nearly_sorted,10000,0.018455
+Comb Sort,reverse,50,0.000035
+Comb Sort,reverse,100,0.000054
+Comb Sort,reverse,500,0.000421
+Comb Sort,reverse,1000,0.000992
+Comb Sort,reverse,5000,0.006717
+Comb Sort,reverse,10000,0.014303
+Comb Sort,duplicates,50,0.000024
+Comb Sort,duplicates,100,0.000071
+Comb Sort,duplicates,500,0.000469
+Comb Sort,duplicates,1000,0.001122
+Comb Sort,duplicates,5000,0.008100
+Comb Sort,duplicates,10000,0.018181
+Cocktail Sort,random,50,0.000091
+Cocktail Sort,random,100,0.000322
+Cocktail Sort,random,500,0.008961
+Cocktail Sort,random,1000,
+Cocktail Sort,random,5000,
+Cocktail Sort,random,10000,
+Cocktail Sort,nearly_sorted,50,0.000071
+Cocktail Sort,nearly_sorted,100,0.000222
+Cocktail Sort,nearly_sorted,500,0.006271
+Cocktail Sort,nearly_sorted,1000,
+Cocktail Sort,nearly_sorted,5000,
+Cocktail Sort,nearly_sorted,10000,
+Cocktail Sort,reverse,50,0.000168
+Cocktail Sort,reverse,100,0.000467
+Cocktail Sort,reverse,500,0.012261
+Cocktail Sort,reverse,1000,
+Cocktail Sort,reverse,5000,
+Cocktail Sort,reverse,10000,
+Cocktail Sort,duplicates,50,0.000085
+Cocktail Sort,duplicates,100,0.000380
+Cocktail Sort,duplicates,500,0.009032
+Cocktail Sort,duplicates,1000,
+Cocktail Sort,duplicates,5000,
+Cocktail Sort,duplicates,10000,
+Gnome Sort,random,50,0.000137
+Gnome Sort,random,100,0.000517
+Gnome Sort,random,500,0.014662
+Gnome Sort,random,1000,
+Gnome Sort,random,5000,
+Gnome Sort,random,10000,
+Gnome Sort,nearly_sorted,50,0.000014
+Gnome Sort,nearly_sorted,100,0.000074
+Gnome Sort,nearly_sorted,500,0.002326
+Gnome Sort,nearly_sorted,1000,
+Gnome Sort,nearly_sorted,5000,
+Gnome Sort,nearly_sorted,10000,
+Gnome Sort,reverse,50,0.000352
+Gnome Sort,reverse,100,0.001187
+Gnome Sort,reverse,500,0.028339
+Gnome Sort,reverse,1000,
+Gnome Sort,reverse,5000,
+Gnome Sort,reverse,10000,
+Gnome Sort,duplicates,50,0.000126
+Gnome Sort,duplicates,100,0.000538
+Gnome Sort,duplicates,500,0.014851
+Gnome Sort,duplicates,1000,
+Gnome Sort,duplicates,5000,
+Gnome Sort,duplicates,10000,
+Odd-Even Sort,random,50,0.000106
+Odd-Even Sort,random,100,0.000329
+Odd-Even Sort,random,500,0.009130
+Odd-Even Sort,random,1000,
+Odd-Even Sort,random,5000,
+Odd-Even Sort,random,10000,
+Odd-Even Sort,nearly_sorted,50,0.000021
+Odd-Even Sort,nearly_sorted,100,0.000144
+Odd-Even Sort,nearly_sorted,500,0.005919
+Odd-Even Sort,nearly_sorted,1000,
+Odd-Even Sort,nearly_sorted,5000,
+Odd-Even Sort,nearly_sorted,10000,
+Odd-Even Sort,reverse,50,0.000155
+Odd-Even Sort,reverse,100,0.000501
+Odd-Even Sort,reverse,500,0.012823
+Odd-Even Sort,reverse,1000,
+Odd-Even Sort,reverse,5000,
+Odd-Even Sort,reverse,10000,
+Odd-Even Sort,duplicates,50,0.000081
+Odd-Even Sort,duplicates,100,0.000320
+Odd-Even Sort,duplicates,500,0.009273
+Odd-Even Sort,duplicates,1000,
+Odd-Even Sort,duplicates,5000,
+Odd-Even Sort,duplicates,10000,
+Strand Sort,random,50,0.000048
+Strand Sort,random,100,0.000110
+Strand Sort,random,500,0.001486
+Strand Sort,random,1000,
+Strand Sort,random,5000,
+Strand Sort,random,10000,
+Strand Sort,nearly_sorted,50,0.000025
+Strand Sort,nearly_sorted,100,0.000048
+Strand Sort,nearly_sorted,500,0.000486
+Strand Sort,nearly_sorted,1000,
+Strand Sort,nearly_sorted,5000,
+Strand Sort,nearly_sorted,10000,
+Strand Sort,reverse,50,0.000139
+Strand Sort,reverse,100,0.000430
+Strand Sort,reverse,500,0.010114
+Strand Sort,reverse,1000,
+Strand Sort,reverse,5000,
+Strand Sort,reverse,10000,
+Strand Sort,duplicates,50,0.000030
+Strand Sort,duplicates,100,0.000092
+Strand Sort,duplicates,500,0.001230
+Strand Sort,duplicates,1000,
+Strand Sort,duplicates,5000,
+Strand Sort,duplicates,10000,
+Tournament Sort,random,50,0.000008
+Tournament Sort,random,100,0.000016
+Tournament Sort,random,500,0.000080
+Tournament Sort,random,1000,0.000173
+Tournament Sort,random,5000,0.001025
+Tournament Sort,random,10000,0.002131
+Tournament Sort,nearly_sorted,50,0.000008
+Tournament Sort,nearly_sorted,100,0.000016
+Tournament Sort,nearly_sorted,500,0.000081
+Tournament Sort,nearly_sorted,1000,0.000165
+Tournament Sort,nearly_sorted,5000,0.000987
+Tournament Sort,nearly_sorted,10000,0.002021
+Tournament Sort,reverse,50,0.000007
+Tournament Sort,reverse,100,0.000016
+Tournament Sort,reverse,500,0.000075
+Tournament Sort,reverse,1000,0.000158
+Tournament Sort,reverse,5000,0.000880
+Tournament Sort,reverse,10000,0.001740
+Tournament Sort,duplicates,50,0.000006
+Tournament Sort,duplicates,100,0.000015
+Tournament Sort,duplicates,500,0.000091
+Tournament Sort,duplicates,1000,0.000177
+Tournament Sort,duplicates,5000,0.001002
+Tournament Sort,duplicates,10000,0.002201
+Tree Sort,random,50,0.000002
+Tree Sort,random,100,0.000003
+Tree Sort,random,500,0.000020
+Tree Sort,random,1000,0.000041
+Tree Sort,random,5000,0.000291
+Tree Sort,random,10000,0.000671
+Tree Sort,nearly_sorted,50,0.000002
+Tree Sort,nearly_sorted,100,0.000003
+Tree Sort,nearly_sorted,500,0.000013
+Tree Sort,nearly_sorted,1000,0.000024
+Tree Sort,nearly_sorted,5000,0.000120
+Tree Sort,nearly_sorted,10000,0.000259
+Tree Sort,reverse,50,0.000001
+Tree Sort,reverse,100,0.000001
+Tree Sort,reverse,500,0.000003
+Tree Sort,reverse,1000,0.000005
+Tree Sort,reverse,5000,0.000022
+Tree Sort,reverse,10000,0.000034
+Tree Sort,duplicates,50,0.000002
+Tree Sort,duplicates,100,0.000003
+Tree Sort,duplicates,500,0.000020
+Tree Sort,duplicates,1000,0.000042
+Tree Sort,duplicates,5000,0.000282
+Tree Sort,duplicates,10000,0.000672
+Patience Sort,random,50,0.000036
+Patience Sort,random,100,0.000076
+Patience Sort,random,500,0.000422
+Patience Sort,random,1000,0.000905
+Patience Sort,random,5000,0.005373
+Patience Sort,random,10000,0.010844
+Patience Sort,nearly_sorted,50,0.000052
+Patience Sort,nearly_sorted,100,0.000100
+Patience Sort,nearly_sorted,500,0.000598
+Patience Sort,nearly_sorted,1000,0.001420
+Patience Sort,nearly_sorted,5000,0.008251
+Patience Sort,nearly_sorted,10000,0.019312
+Patience Sort,reverse,50,0.000020
+Patience Sort,reverse,100,0.000039
+Patience Sort,reverse,500,0.000182
+Patience Sort,reverse,1000,0.000370
+Patience Sort,reverse,5000,0.001806
+Patience Sort,reverse,10000,0.003853
+Patience Sort,duplicates,50,0.000035
+Patience Sort,duplicates,100,0.000075
+Patience Sort,duplicates,500,0.000435
+Patience Sort,duplicates,1000,0.000950
+Patience Sort,duplicates,5000,0.005276
+Patience Sort,duplicates,10000,0.011138
+Smoothsort,random,50,0.000001
+Smoothsort,random,100,0.000002
+Smoothsort,random,500,0.000014
+Smoothsort,random,1000,0.000032
+Smoothsort,random,5000,0.000358
+Smoothsort,random,10000,0.000710
+Smoothsort,nearly_sorted,50,0.000001
+Smoothsort,nearly_sorted,100,0.000002
+Smoothsort,nearly_sorted,500,0.000010
+Smoothsort,nearly_sorted,1000,0.000030
+Smoothsort,nearly_sorted,5000,0.000116
+Smoothsort,nearly_sorted,10000,0.000261
+Smoothsort,reverse,50,0.000000
+Smoothsort,reverse,100,0.000001
+Smoothsort,reverse,500,0.000002
+Smoothsort,reverse,1000,0.000004
+Smoothsort,reverse,5000,0.000017
+Smoothsort,reverse,10000,0.000033
+Smoothsort,duplicates,50,0.000001
+Smoothsort,duplicates,100,0.000002
+Smoothsort,duplicates,500,0.000022
+Smoothsort,duplicates,1000,0.000031
+Smoothsort,duplicates,5000,0.000302
+Smoothsort,duplicates,10000,0.000629
+Timsort,random,50,0.000001
+Timsort,random,100,0.000002
+Timsort,random,500,0.000013
+Timsort,random,1000,0.000029
+Timsort,random,5000,0.000280
+Timsort,random,10000,0.000711
+Timsort,nearly_sorted,50,0.000001
+Timsort,nearly_sorted,100,0.000002
+Timsort,nearly_sorted,500,0.000009
+Timsort,nearly_sorted,1000,0.000020
+Timsort,nearly_sorted,5000,0.000100
+Timsort,nearly_sorted,10000,0.000223
+Timsort,reverse,50,0.000001
+Timsort,reverse,100,0.000001
+Timsort,reverse,500,0.000002
+Timsort,reverse,1000,0.000004
+Timsort,reverse,5000,0.000016
+Timsort,reverse,10000,0.000032
+Timsort,duplicates,50,0.000001
+Timsort,duplicates,100,0.000002
+Timsort,duplicates,500,0.000021
+Timsort,duplicates,1000,0.000028
+Timsort,duplicates,5000,0.000269
+Timsort,duplicates,10000,0.000614
+Introsort,random,50,0.000001
+Introsort,random,100,0.000002
+Introsort,random,500,0.000013
+Introsort,random,1000,0.000029
+Introsort,random,5000,0.000262
+Introsort,random,10000,0.000637
+Introsort,nearly_sorted,50,0.000001
+Introsort,nearly_sorted,100,0.000002
+Introsort,nearly_sorted,500,0.000009
+Introsort,nearly_sorted,1000,0.000018
+Introsort,nearly_sorted,5000,0.000098
+Introsort,nearly_sorted,10000,0.000215
+Introsort,reverse,50,0.000000
+Introsort,reverse,100,0.000001
+Introsort,reverse,500,0.000002
+Introsort,reverse,1000,0.000003
+Introsort,reverse,5000,0.000017
+Introsort,reverse,10000,0.000032
+Introsort,duplicates,50,0.000001
+Introsort,duplicates,100,0.000004
+Introsort,duplicates,500,0.000017
+Introsort,duplicates,1000,0.000029
+Introsort,duplicates,5000,0.000259
+Introsort,duplicates,10000,0.000613
+Fluxsort,random,50,0.000001
+Fluxsort,random,100,0.000006
+Fluxsort,random,500,0.000013
+Fluxsort,random,1000,0.000028
+Fluxsort,random,5000,0.000257
+Fluxsort,random,10000,0.000633
+Fluxsort,nearly_sorted,50,0.000001
+Fluxsort,nearly_sorted,100,0.000002
+Fluxsort,nearly_sorted,500,0.000009
+Fluxsort,nearly_sorted,1000,0.000018
+Fluxsort,nearly_sorted,5000,0.000098
+Fluxsort,nearly_sorted,10000,0.000212
+Fluxsort,reverse,50,0.000000
+Fluxsort,reverse,100,0.000001
+Fluxsort,reverse,500,0.000002
+Fluxsort,reverse,1000,0.000004
+Fluxsort,reverse,5000,0.000016
+Fluxsort,reverse,10000,0.000032
+Fluxsort,duplicates,50,0.000001
+Fluxsort,duplicates,100,0.000003
+Fluxsort,duplicates,500,0.000017
+Fluxsort,duplicates,1000,0.000028
+Fluxsort,duplicates,5000,0.000254
+Fluxsort,duplicates,10000,0.000706
+Crumsort,random,50,0.000001
+Crumsort,random,100,0.000004
+Crumsort,random,500,0.000013
+Crumsort,random,1000,0.000028
+Crumsort,random,5000,0.000254
+Crumsort,random,10000,0.000634
+Crumsort,nearly_sorted,50,0.000001
+Crumsort,nearly_sorted,100,0.000002
+Crumsort,nearly_sorted,500,0.000021
+Crumsort,nearly_sorted,1000,0.000018
+Crumsort,nearly_sorted,5000,0.000117
+Crumsort,nearly_sorted,10000,0.000212
+Crumsort,reverse,50,0.000000
+Crumsort,reverse,100,0.000001
+Crumsort,reverse,500,0.000002
+Crumsort,reverse,1000,0.000004
+Crumsort,reverse,5000,0.000016
+Crumsort,reverse,10000,0.000032
+Crumsort,duplicates,50,0.000001
+Crumsort,duplicates,100,0.000003
+Crumsort,duplicates,500,0.000017
+Crumsort,duplicates,1000,0.000027
+Crumsort,duplicates,5000,0.000251
+Crumsort,duplicates,10000,0.000638
+Block Sort,random,50,0.000001
+Block Sort,random,100,0.000004
+Block Sort,random,500,0.000013
+Block Sort,random,1000,0.000028
+Block Sort,random,5000,0.000258
+Block Sort,random,10000,0.000635
+Block Sort,nearly_sorted,50,0.000001
+Block Sort,nearly_sorted,100,0.000002
+Block Sort,nearly_sorted,500,0.000017
+Block Sort,nearly_sorted,1000,0.000018
+Block Sort,nearly_sorted,5000,0.000160
+Block Sort,nearly_sorted,10000,0.000238
+Block Sort,reverse,50,0.000000
+Block Sort,reverse,100,0.000001
+Block Sort,reverse,500,0.000002
+Block Sort,reverse,1000,0.000007
+Block Sort,reverse,5000,0.000016
+Block Sort,reverse,10000,0.000032
+Block Sort,duplicates,50,0.000001
+Block Sort,duplicates,100,0.000003
+Block Sort,duplicates,500,0.000016
+Block Sort,duplicates,1000,0.000037
+Block Sort,duplicates,5000,0.000249
+Block Sort,duplicates,10000,0.000698
+Library Sort,random,50,0.000001
+Library Sort,random,100,0.000004
+Library Sort,random,500,0.000013
+Library Sort,random,1000,0.000030
+Library Sort,random,5000,0.000258
+Library Sort,random,10000,0.000636
+Library Sort,nearly_sorted,50,0.000001
+Library Sort,nearly_sorted,100,0.000003
+Library Sort,nearly_sorted,500,0.000016
+Library Sort,nearly_sorted,1000,0.000018
+Library Sort,nearly_sorted,5000,0.000129
+Library Sort,nearly_sorted,10000,0.000225
+Library Sort,reverse,50,0.000000
+Library Sort,reverse,100,0.000000
+Library Sort,reverse,500,0.000002
+Library Sort,reverse,1000,0.000005
+Library Sort,reverse,5000,0.000016
+Library Sort,reverse,10000,0.000033
+Library Sort,duplicates,50,0.000001
+Library Sort,duplicates,100,0.000003
+Library Sort,duplicates,500,0.000016
+Library Sort,duplicates,1000,0.000028
+Library Sort,duplicates,5000,0.000358
+Library Sort,duplicates,10000,0.000686
+Cubesort,random,50,0.000001
+Cubesort,random,100,0.000004
+Cubesort,random,500,0.000013
+Cubesort,random,1000,0.000028
+Cubesort,random,5000,0.000395
+Cubesort,random,10000,0.000659
+Cubesort,nearly_sorted,50,0.000001
+Cubesort,nearly_sorted,100,0.000002
+Cubesort,nearly_sorted,500,0.000016
+Cubesort,nearly_sorted,1000,0.000018
+Cubesort,nearly_sorted,5000,0.000127
+Cubesort,nearly_sorted,10000,0.000212
+Cubesort,reverse,50,0.000000
+Cubesort,reverse,100,0.000001
+Cubesort,reverse,500,0.000002
+Cubesort,reverse,1000,0.000005
+Cubesort,reverse,5000,0.000016
+Cubesort,reverse,10000,0.000032
+Cubesort,duplicates,50,0.000001
+Cubesort,duplicates,100,0.000003
+Cubesort,duplicates,500,0.000016
+Cubesort,duplicates,1000,0.000027
+Cubesort,duplicates,5000,0.000280
+Cubesort,duplicates,10000,0.000610
+Counting Sort,random,50,0.000018
+Counting Sort,random,100,0.000062
+Counting Sort,random,500,0.000179
+Counting Sort,random,1000,0.000350
+Counting Sort,random,5000,0.001892
+Counting Sort,random,10000,0.003498
+Counting Sort,nearly_sorted,50,0.000012
+Counting Sort,nearly_sorted,100,0.000019
+Counting Sort,nearly_sorted,500,0.000161
+Counting Sort,nearly_sorted,1000,0.000182
+Counting Sort,nearly_sorted,5000,0.000924
+Counting Sort,nearly_sorted,10000,0.001977
+Counting Sort,reverse,50,0.000012
+Counting Sort,reverse,100,0.000019
+Counting Sort,reverse,500,0.000092
+Counting Sort,reverse,1000,0.000249
+Counting Sort,reverse,5000,0.000914
+Counting Sort,reverse,10000,0.001832
+Counting Sort,duplicates,50,0.000007
+Counting Sort,duplicates,100,0.000016
+Counting Sort,duplicates,500,0.000067
+Counting Sort,duplicates,1000,0.000110
+Counting Sort,duplicates,5000,0.000604
+Counting Sort,duplicates,10000,0.001400
+Radix Sort,random,50,0.000017
+Radix Sort,random,100,0.000055
+Radix Sort,random,500,0.000190
+Radix Sort,random,1000,0.000367
+Radix Sort,random,5000,0.002237
+Radix Sort,random,10000,0.004460
+Radix Sort,nearly_sorted,50,0.000014
+Radix Sort,nearly_sorted,100,0.000031
+Radix Sort,nearly_sorted,500,0.000182
+Radix Sort,nearly_sorted,1000,0.000360
+Radix Sort,nearly_sorted,5000,0.001817
+Radix Sort,nearly_sorted,10000,0.004346
+Radix Sort,reverse,50,0.000014
+Radix Sort,reverse,100,0.000031
+Radix Sort,reverse,500,0.000140
+Radix Sort,reverse,1000,0.000419
+Radix Sort,reverse,5000,0.001766
+Radix Sort,reverse,10000,0.004381
+Radix Sort,duplicates,50,0.000015
+Radix Sort,duplicates,100,0.000026
+Radix Sort,duplicates,500,0.000135
+Radix Sort,duplicates,1000,0.000274
+Radix Sort,duplicates,5000,0.001911
+Radix Sort,duplicates,10000,0.003702
+Bucket Sort,random,50,0.000015
+Bucket Sort,random,100,0.000040
+Bucket Sort,random,500,0.000105
+Bucket Sort,random,1000,0.000206
+Bucket Sort,random,5000,0.001186
+Bucket Sort,random,10000,0.002299
+Bucket Sort,nearly_sorted,50,0.000015
+Bucket Sort,nearly_sorted,100,0.000022
+Bucket Sort,nearly_sorted,500,0.000125
+Bucket Sort,nearly_sorted,1000,0.000197
+Bucket Sort,nearly_sorted,5000,0.000963
+Bucket Sort,nearly_sorted,10000,0.002045
+Bucket Sort,reverse,50,0.000014
+Bucket Sort,reverse,100,0.000022
+Bucket Sort,reverse,500,0.000096
+Bucket Sort,reverse,1000,0.000187
+Bucket Sort,reverse,5000,0.000995
+Bucket Sort,reverse,10000,0.001880
+Bucket Sort,duplicates,50,0.000015
+Bucket Sort,duplicates,100,0.000027
+Bucket Sort,duplicates,500,0.000101
+Bucket Sort,duplicates,1000,0.000200
+Bucket Sort,duplicates,5000,0.001228
+Bucket Sort,duplicates,10000,0.002139
+Pigeonhole Sort,random,50,0.000018
+Pigeonhole Sort,random,100,0.000059
+Pigeonhole Sort,random,500,0.000186
+Pigeonhole Sort,random,1000,0.000350
+Pigeonhole Sort,random,5000,0.001788
+Pigeonhole Sort,random,10000,0.003518
+Pigeonhole Sort,nearly_sorted,50,0.000012
+Pigeonhole Sort,nearly_sorted,100,0.000019
+Pigeonhole Sort,nearly_sorted,500,0.000100
+Pigeonhole Sort,nearly_sorted,1000,0.000182
+Pigeonhole Sort,nearly_sorted,5000,0.000923
+Pigeonhole Sort,nearly_sorted,10000,0.001831
+Pigeonhole Sort,reverse,50,0.000011
+Pigeonhole Sort,reverse,100,0.000018
+Pigeonhole Sort,reverse,500,0.000090
+Pigeonhole Sort,reverse,1000,0.000195
+Pigeonhole Sort,reverse,5000,0.000919
+Pigeonhole Sort,reverse,10000,0.001854
+Pigeonhole Sort,duplicates,50,0.000008
+Pigeonhole Sort,duplicates,100,0.000014
+Pigeonhole Sort,duplicates,500,0.000055
+Pigeonhole Sort,duplicates,1000,0.000109
+Pigeonhole Sort,duplicates,5000,0.000668
+Pigeonhole Sort,duplicates,10000,0.001200
+Spreadsort,random,50,0.000015
+Spreadsort,random,100,0.000029
+Spreadsort,random,500,0.000230
+Spreadsort,random,1000,0.000428
+Spreadsort,random,5000,0.003031
+Spreadsort,random,10000,0.006187
+Spreadsort,nearly_sorted,50,0.000016
+Spreadsort,nearly_sorted,100,0.000024
+Spreadsort,nearly_sorted,500,0.000211
+Spreadsort,nearly_sorted,1000,0.000396
+Spreadsort,nearly_sorted,5000,0.002951
+Spreadsort,nearly_sorted,10000,0.005676
+Spreadsort,reverse,50,0.000015
+Spreadsort,reverse,100,0.000022
+Spreadsort,reverse,500,0.000259
+Spreadsort,reverse,1000,0.000390
+Spreadsort,reverse,5000,0.002849
+Spreadsort,reverse,10000,0.005864
+Spreadsort,duplicates,50,0.000016
+Spreadsort,duplicates,100,0.000027
+Spreadsort,duplicates,500,0.000214
+Spreadsort,duplicates,1000,0.000406
+Spreadsort,duplicates,5000,0.003105
+Spreadsort,duplicates,10000,0.006358
+Flashsort,random,50,0.000187
+Flashsort,random,100,0.000323
+Flashsort,random,500,0.000795
+Flashsort,random,1000,
+Flashsort,random,5000,
+Flashsort,random,10000,
+Flashsort,nearly_sorted,50,0.000229
+Flashsort,nearly_sorted,100,0.000250
+Flashsort,nearly_sorted,500,0.000739
+Flashsort,nearly_sorted,1000,
+Flashsort,nearly_sorted,5000,
+Flashsort,nearly_sorted,10000,
+Flashsort,reverse,50,0.000227
+Flashsort,reverse,100,0.000246
+Flashsort,reverse,500,0.000741
+Flashsort,reverse,1000,
+Flashsort,reverse,5000,
+Flashsort,reverse,10000,
+Flashsort,duplicates,50,0.000236
+Flashsort,duplicates,100,0.000320
+Flashsort,duplicates,500,0.000844
+Flashsort,duplicates,1000,
+Flashsort,duplicates,5000,
+Flashsort,duplicates,10000,
+Statsort,random,50,0.000012
+Statsort,random,100,0.000024
+Statsort,random,500,0.000105
+Statsort,random,1000,0.000213
+Statsort,random,5000,0.001167
+Statsort,random,10000,0.002393
+Statsort,nearly_sorted,50,0.000014
+Statsort,nearly_sorted,100,0.000021
+Statsort,nearly_sorted,500,0.000101
+Statsort,nearly_sorted,1000,0.000198
+Statsort,nearly_sorted,5000,0.000941
+Statsort,nearly_sorted,10000,0.001845
+Statsort,reverse,50,0.000014
+Statsort,reverse,100,0.000021
+Statsort,reverse,500,0.000093
+Statsort,reverse,1000,0.000185
+Statsort,reverse,5000,0.000892
+Statsort,reverse,10000,0.001735
+Statsort,duplicates,50,0.000014
+Statsort,duplicates,100,0.000025
+Statsort,duplicates,500,0.000106
+Statsort,duplicates,1000,0.000258
+Statsort,duplicates,5000,0.001348
+Statsort,duplicates,10000,0.002316
+Burstsort,random,50,0.000001
+Burstsort,random,100,0.000002
+Burstsort,random,500,0.000017
+Burstsort,random,1000,0.000041
+Burstsort,random,5000,0.000368
+Burstsort,random,10000,0.000659
+Burstsort,nearly_sorted,50,0.000001
+Burstsort,nearly_sorted,100,0.000002
+Burstsort,nearly_sorted,500,0.000010
+Burstsort,nearly_sorted,1000,0.000020
+Burstsort,nearly_sorted,5000,0.000113
+Burstsort,nearly_sorted,10000,0.000253
+Burstsort,reverse,50,0.000001
+Burstsort,reverse,100,0.000001
+Burstsort,reverse,500,0.000002
+Burstsort,reverse,1000,0.000004
+Burstsort,reverse,5000,0.000017
+Burstsort,reverse,10000,0.000032
+Burstsort,duplicates,50,0.000002
+Burstsort,duplicates,100,0.000002
+Burstsort,duplicates,500,0.000016
+Burstsort,duplicates,1000,0.000048
+Burstsort,duplicates,5000,0.000282
+Burstsort,duplicates,10000,0.000617
+Postman Sort,random,50,0.000018
+Postman Sort,random,100,0.000032
+Postman Sort,random,500,0.000188
+Postman Sort,random,1000,0.000361
+Postman Sort,random,5000,0.002214
+Postman Sort,random,10000,0.004412
+Postman Sort,nearly_sorted,50,0.000015
+Postman Sort,nearly_sorted,100,0.000031
+Postman Sort,nearly_sorted,500,0.000138
+Postman Sort,nearly_sorted,1000,0.000361
+Postman Sort,nearly_sorted,5000,0.001730
+Postman Sort,nearly_sorted,10000,0.004183
+Postman Sort,reverse,50,0.000014
+Postman Sort,reverse,100,0.000032
+Postman Sort,reverse,500,0.000137
+Postman Sort,reverse,1000,0.000351
+Postman Sort,reverse,5000,0.001723
+Postman Sort,reverse,10000,0.004559
+Postman Sort,duplicates,50,0.000014
+Postman Sort,duplicates,100,0.000021
+Postman Sort,duplicates,500,0.000132
+Postman Sort,duplicates,1000,0.000309
+Postman Sort,duplicates,5000,0.001732
+Postman Sort,duplicates,10000,0.003564
